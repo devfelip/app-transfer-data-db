@@ -6,6 +6,7 @@ use App\Models\MainModel;
 use App\Http\Requests\StoreMainModelRequest;
 use App\Http\Requests\UpdateMainModelRequest;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 
 class MainModelController extends Controller
@@ -15,28 +16,43 @@ class MainModelController extends Controller
         //$registros = DbaTables::all();
         //$rex = json_encode($registros);
 
-        $rex = DB::connection('pgsql')->table('recad.tCadastro')->select('cProprietarioNew')->get();
-        $rex = json_encode($rex);
-        return view('index',compact('rex'));
+        return view('index');
+    }
+
+    public function connect_database_realtime($host,$port,$database,$username,$password)
+    {
+        config(['database.connections.pgsql.host' => $host]);
+        config(['database.connections.pgsql.port' => $port]);
+        config(['database.connections.pgsql.database' => $database]);
+        config(['database.connections.pgsql.username' => $username]);
+        config(['database.connections.pgsql.password' => $password]);
     }
 
     public function dados_conexao(Request $req)
     {
         $dados = $req->all();
+        $conn = $dados['connection'];
 
         //Set env variables connection
-        $conn = config(['database.default' => $dados['connection']]);
-        config(['database.connections.oracle.host' => $dados['host']]);
-        config(['database.connections.oracle.port' => $dados['port']]);
-        config(['database.connections.oracle.database' => $dados['database']]);
-        config(['database.connections.oracle.username' => $dados['username']]);
-        config(['database.connections.oracle.password' => $dados['password']]);
+        if ($conn == "pgsql") {
+            config(['database.connections.pgsql.host' => $dados['host']]);
+            config(['database.connections.pgsql.port' => $dados['port']]);
+            config(['database.connections.pgsql.database' => $dados['database']]);
+            config(['database.connections.pgsql.username' => $dados['username']]);
+            config(['database.connections.pgsql.password' => $dados['password']]);
+        }
 
         //$registros = MainModel::all();
         //$rex = json_encode($registros);
-        
+
         $rex = DB::connection($conn)->table('recad.tCadastro')->select('cProprietarioNew')->get();
         $rex = json_encode($rex);
-        return view('test',compact('rex'));
+
+        return view('test', compact('rex'));
+    }
+
+    public function populate_select_tables($conn)
+    {
+        return DB::connection($conn)->select("SELECT table_name FROM information_schema.tables WHERE table_schema = 'app'");
     }
 }

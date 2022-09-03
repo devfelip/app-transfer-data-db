@@ -19,3 +19,4 @@ Route::get('/test', function () {
     return view('test');
 })->name('test');
 Route::post('/', [MainModelController::class, 'dados_conexao'])->name('salvar');
+Route::get('/select/{conn}', [MainModelController::class, 'populate_select_tables'])->name('select');

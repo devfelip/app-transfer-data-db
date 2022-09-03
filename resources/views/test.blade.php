@@ -1,8 +1,8 @@
 {{ config('database.default') }}
-{{ config('database.connections.oracle.host') }}
-{{ config('database.connections.oracle.port') }}
-{{ config('database.connections.oracle.database') }}
-{{ config('database.connections.oracle.username') }}
-{{ config('database.connections.oracle.password') }}
+{{ config('database.connections.pgsql.host') }}
+{{ config('database.connections.pgsql.port') }}
+{{ config('database.connections.pgsql.database') }}
+{{ config('database.connections.pgsql.username') }}
+{{ config('database.connections.pgsql.password') }}
 
 {{$rex}}

@@ -10,6 +10,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ asset('/js/app.js') }}"></script>
     <title>Index</title>
 </head>
 
@@ -18,8 +20,8 @@
         <form class="form-group" action="{{ route('salvar') }}" method="post" enctype="multipart/form-data">
             {{ csrf_field() }}
             <label for="txtDbConnection">Connection</label>
-            <select class="form-control" id="txtDbConnection">
-                <option>1</option>
+            <select class="form-control" id="txtConnection" name="connection">
+                <option>pgsql</option>
             </select>
             <div class="form-group">
                 <label for="txtHost">Host</label>
@@ -50,6 +52,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+    <div id="dados"></div>
 </body>
 
 </html>
