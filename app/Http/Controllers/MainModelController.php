@@ -19,15 +19,6 @@ class MainModelController extends Controller
         return view('index');
     }
 
-    public function connect_database_realtime($host,$port,$database,$username,$password)
-    {
-        config(['database.connections.pgsql.host' => $host]);
-        config(['database.connections.pgsql.port' => $port]);
-        config(['database.connections.pgsql.database' => $database]);
-        config(['database.connections.pgsql.username' => $username]);
-        config(['database.connections.pgsql.password' => $password]);
-    }
-
     public function dados_conexao(Request $req)
     {
         $dados = $req->all();
@@ -51,8 +42,15 @@ class MainModelController extends Controller
         return view('test', compact('rex'));
     }
 
-    public function populate_select_tables($conn)
+    public function populate_select_tables($conn,$host,$port,$db,$username,$password)
     {
-        return DB::connection($conn)->select("SELECT table_name FROM information_schema.tables WHERE table_schema = 'app'");
+        config(['database.default' => $conn]);
+        config(['database.connections.pgsql.host' => $host]);
+        config(['database.connections.pgsql.port' => $port]);
+        config(['database.connections.pgsql.database' => $db]);
+        config(['database.connections.pgsql.username' => $username]);
+        config(['database.connections.pgsql.password' => $password]);
+
+        return DB::connection()->select("SELECT table_name FROM information_schema.tables WHERE table_schema = 'app'");
     }
 }
