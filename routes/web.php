@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MainModelController;
+use App\Http\Controllers\MainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,12 +12,4 @@ use App\Http\Controllers\MainModelController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//Route::get('/', ['as'=>'admin.help.index','uses'=>'App\Http\Controllers\HelpController@index']);
-//Route::get('/', ['as'=>'admin.help.index',HelpController::class, 'index']);
-Route::get('/', [MainModelController::class, 'index'])->name('index');
-Route::get('/test', function () {
-    return view('test');
-})->name('test');
-Route::post('/', [MainModelController::class, 'dados_conexao'])->name('salvar');
-Route::get('/select/{conn}/{host}/{port}/{db}/{user}/{pass}/{schema}', [MainModelController::class, 'populate_select_tables'])->name('select');
-Route::get('/select2/{conn}/{host}/{port}/{db}/{user}/{pass}', [MainModelController::class, 'populate_select_schemas'])->name('select2');
+Route::get('/', [MainController::class, 'import_table_source_to_target'])->name('index');

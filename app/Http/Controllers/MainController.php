@@ -2,85 +2,34 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Main;
-use App\Http\Requests\StoreMainRequest;
-use App\Http\Requests\UpdateMainRequest;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function import_table_source_to_target()
     {
-        //
-    }
+        $table_db_source = env('DB_DATABASE_TABLE');
+        $table_db_target = env('DB_DATABASE_TABLE_TARGET');
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
+        // Gera JSON da tabela
+        $json_table = DB::connection(env('DB_CONNECTION'))->table($table_db_source)->get();
+        $json_table = json_decode($json_table, true);
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreMainRequest  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(StoreMainRequest $request)
-    {
-        //
-    }
+        // Cria arquivo CSV e importa os dados do JSON nele
+        $csv_filename = 'dados.csv';
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Main  $main
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Main $main)
-    {
-        //
-    }
+        $file = fopen($csv_filename, 'w');
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Main  $main
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Main $main)
-    {
-        //
-    }
+        foreach ($json_table as $i) {
+            fputcsv($file, $i);
+        }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateMainRequest  $request
-     * @param  \App\Models\Main  $main
-     * @return \Illuminate\Http\Response
-     */
-    public function update(UpdateMainRequest $request, Main $main)
-    {
-        //
-    }
+        fclose($file);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Main  $main
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Main $main)
-    {
-        //
+        // Limpa tabela, reseta coluna identity e importa os novos dados pelo csv gerado via query do postgres
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY $table_db_target RESTART IDENTITY");
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '".public_path('dados.csv')."' DELIMITER ',' CSV");
+
+        return "Tabela importada com sucesso!";
     }
 }
