@@ -77,6 +77,20 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
+        'pgsql_target' => [
+            'driver' => 'pgsql',
+            'url' => env('DATABASE_URL_TARGET'),
+            'host' => env('DB_HOST_TARGET', '127.0.0.1'),
+            'port' => env('DB_PORT_TARGET', '5432'),
+            'database' => env('DB_DATABASE_TARGET', 'forge'),
+            'username' => env('DB_USERNAME_TARGET', 'forge'),
+            'password' => env('DB_PASSWORD_TARGET', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
@@ -90,7 +104,23 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
-
+        'oracle' => [
+            'driver'         => 'oracle',
+            'tns'            => env('DB_TNS', ''),
+            'host'           => env('DB_HOST', ''),
+            'port'           => env('DB_PORT', '1521'),
+            'database'       => env('DB_DATABASE', ''),
+            'service_name'   => env('DB_SERVICE_NAME', ''),
+            'username'       => env('DB_USERNAME', ''),
+            'password'       => env('DB_PASSWORD', ''),
+            'charset'        => env('DB_CHARSET', 'AL32UTF8'),
+            'prefix'         => env('DB_PREFIX', ''),
+            'prefix_schema'  => env('DB_SCHEMA_PREFIX', ''),
+            'edition'        => env('DB_EDITION', 'ora$base'),
+            'server_version' => env('DB_SERVER_VERSION', '11g'),
+            'load_balance'   => env('DB_LOAD_BALANCE', 'yes'),
+            'dynamic'        => [],
+        ],    
     ],
 
     /*
@@ -123,7 +153,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [

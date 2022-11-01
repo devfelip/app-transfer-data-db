@@ -12,37 +12,34 @@ use Illuminate\Http\Request;
 class MainModelController extends Controller
 {
     public function index()
-    {
-        //$registros = DbaTables::all();
-        //$rex = json_encode($registros);
-
+    {       
         return view('index');
     }
 
-    public function dados_conexao(Request $req)
+    public function dados_conexao(Request $req) //Mudar nome function
     {
         $dados = $req->all();
-        $conn = $dados['connection'];
 
-        //Set env variables connection
-        if ($conn == "pgsql") {
-            config(['database.connections.pgsql.host' => $dados['host']]);
-            config(['database.connections.pgsql.port' => $dados['port']]);
-            config(['database.connections.pgsql.database' => $dados['database']]);
-            config(['database.connections.pgsql.username' => $dados['username']]);
-            config(['database.connections.pgsql.password' => $dados['password']]);
+        $json_table = DB::connection(env('DB_CONNECTION'))->table(env('DB_DATABASE_TABLE'))->get();
+        $json_table = json_decode($json_table, true);
+
+        $csv_filename = 'dados.csv';
+
+        $file = fopen($csv_filename, 'w');
+
+        foreach ($json_table as $i) {
+            fputcsv($file, $i);
         }
 
-        //$registros = MainModel::all();
-        //$rex = json_encode($registros);
+        fclose($file);
 
-        $rex = DB::connection($conn)->table('recad.tCadastro')->select('cProprietarioNew')->get();
-        $rex = json_encode($rex);
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY app.t_cius_cnae RESTART IDENTITY");
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY app.t_cius_cnae FROM '".public_path('dados.csv')."' DELIMITER ',' CSV");
 
-        return view('test', compact('rex'));
+        return "Tabela importada com sucesso!";
     }
 
-    public function populate_select_tables($conn,$host,$port,$db,$username,$password)
+    public function populate_select_tables($conn, $host, $port, $db, $username, $password, $schema)
     {
         config(['database.default' => $conn]);
         config(['database.connections.pgsql.host' => $host]);
@@ -51,6 +48,18 @@ class MainModelController extends Controller
         config(['database.connections.pgsql.username' => $username]);
         config(['database.connections.pgsql.password' => $password]);
 
-        return DB::connection()->select("SELECT table_name FROM information_schema.tables WHERE table_schema = 'app'");
+        return DB::connection()->select("SELECT table_name FROM information_schema.tables WHERE table_schema = '$schema'");
+    }
+
+    public function populate_select_schemas($conn, $host, $port, $db, $username, $password)
+    {
+        config(['database.default' => $conn]);
+        config(['database.connections.pgsql.host' => $host]);
+        config(['database.connections.pgsql.port' => $port]);
+        config(['database.connections.pgsql.database' => $db]);
+        config(['database.connections.pgsql.username' => $username]);
+        config(['database.connections.pgsql.password' => $password]);
+
+        return DB::connection()->select("SELECT DISTINCT table_schema FROM information_schema.tables ORDER BY table_schema");
     }
 }

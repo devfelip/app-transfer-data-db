@@ -22,6 +22,8 @@
             <label for="txtDbConnection">Connection</label>
             <select class="form-control" id="txtConnection" name="connection">
                 <option>pgsql</option>
+                <option>oracle</option>
+                <option>mysql</option>
             </select>
             <div class="form-group">
                 <label for="txtHost">Host</label>
@@ -43,9 +45,15 @@
                 <label for="txtPassword">Password</label>
                 <input type="password" class="form-control" id="txtPassword" name="password" placeholder="Enter email">
             </div>
+            <label for="txtTables">Schema</label>
+            <div class="form-group">
+                <select class="form-control" id="txtSchemas" name="schema">
+                    <option>*</option>
+                </select>
+            </div>            
             <label for="txtTables">Table</label>
             <div class="form-group">
-                <select class="form-control" id="txtTables">
+                <select class="form-control" id="txtTables" name="table">
                     <option>*</option>
                 </select>
             </div>            

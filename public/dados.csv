@@ -1,0 +1,674 @@
+4,01.11-3,"Cultivo de cereais,","2021-08-04 01:05:33",,,,,1
+5,01.12-1,"Cultivo de algodão herbáceo e de outras fibras de lavoura temporária","2021-08-04 01:05:33",,,,,2
+6,01.13-0,"Cultivo de cana-de-açúcar","2021-08-04 01:05:33",,,,,3
+7,01.14-8,"Cultivo de fumo","2021-08-04 01:05:33",,,,,4
+8,01.15-6,"Cultivo de soja","2021-08-04 01:05:33",,,,,5
+9,01.16-4,"Cultivo de oleaginosas de lavoura temporária, exceto soja","2021-08-04 01:05:33",,,,,6
+10,01.19-9,"Cultivo de plantas de lavoura temporária não especificadas anteriormente","2021-08-04 01:05:33",,,,,7
+12,01.21-1,Horticultura,"2021-08-04 01:05:33",,,,,8
+13,01.22-9,"Cultivo de flores e plantas ornamentais","2021-08-04 01:05:33",,,,,9
+15,01.31-8,"Cultivo de laranja","2021-08-04 01:05:33",,,,,10
+16,01.32-6,"Cultivo de uva","2021-08-04 01:05:33",,,,,11
+17,01.33-4,"Cultivo de frutas de lavoura permanente, exceto laranja e uva","2021-08-04 01:05:33",,,,,12
+18,01.34-2,"Cultivo de café","2021-08-04 01:05:33",,,,,13
+19,01.35-1,"Cultivo de cacau","2021-08-04 01:05:33",,,,,14
+20,01.39-3,"Cultivo de plantas de lavoura permanente não especificadas anteriormente","2021-08-04 01:05:33",,,,,15
+22,01.41-5,"Produção de sementes certificadas","2021-08-04 01:05:33",,,,,16
+23,01.42-3,"Produção de mudas e outras formas de propagação vegetal, certificadas","2021-08-04 01:05:33",,,,,17
+25,01.51-2,"Criação de bovinos","2021-08-04 01:05:33",,,,,18
+26,01.52-1,"Criação de outros animais de grande porte","2021-08-04 01:05:33",,,,,19
+27,01.53-9,"Criação de caprinos e ovinos","2021-08-04 01:05:33",,,,,20
+28,01.54-7,"Criação de suínos","2021-08-04 01:05:33",,,,,21
+29,01.55-5,"Criação de aves","2021-08-04 01:05:33",,,,,22
+30,01.59-8,"Criação de animais não especificados anteriormente","2021-08-04 01:05:33",,,,,23
+32,01.61-0,"Atividades de apoio à agricultura","2021-08-04 01:05:33",,,,,24
+33,01.62-8,"Atividades de apoio à pecuária","2021-08-04 01:05:33",,,,,25
+34,01.63-6,"Atividades de pós-colheita","2021-08-04 01:05:33",,,,,26
+36,01.70-9,"Caça e serviços relacionados","2021-08-04 01:05:33",,,,,27
+39,02.10-1,"Produção florestal - florestas plantadas","2021-08-04 01:05:33",,,,,28
+41,02.20-9,"Produção florestal - florestas nativas","2021-08-04 01:05:33",,,,,29
+43,02.30-6,"Atividades de apoio à produção florestal","2021-08-04 01:05:33",,,,,30
+46,03.11-6,"Pesca em água salgada","2021-08-04 01:05:33",,,,,31
+47,03.12-4,"Pesca em água doce","2021-08-04 01:05:33",,,,,32
+49,03.21-3,"Aqüicultura em água salgada e salobra","2021-08-04 01:05:33",,,,,33
+50,03.22-1,"Aqüicultura em água doce","2021-08-04 01:05:33",,,,,34
+54,05.00-3,"Extração de carvão mineral","2021-08-04 01:05:33",,,,,35
+57,06.00-0,"Extração de petróleo e gás natural","2021-08-04 01:05:33",,,,,36
+60,07.10-3,"Extração de minério de ferro","2021-08-04 01:05:33",,,,,37
+62,07.21-9,"Extração de minério de alumínio","2021-08-04 01:05:33",,,,,38
+63,07.22-7,"Extração de minério de estanho","2021-08-04 01:05:33",,,,,39
+64,07.23-5,"Extração de minério de manganês","2021-08-04 01:05:33",,,,,40
+65,07.24-3,"Extração de minério de metais preciosos","2021-08-04 01:05:33",,,,,41
+66,07.25-1,"Extração de minerais radioativos","2021-08-04 01:05:33",,,,,42
+67,07.29-4,"Extração de minerais metálicos não-ferrosos não especificados anteriormente","2021-08-04 01:05:33",,,,,43
+70,08.10-0,"Extração de pedra, areia e argila","2021-08-04 01:05:33",,,,,44
+72,08.91-6,"Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos","2021-08-04 01:05:33",,,,,45
+73,08.92-4,"Extração e refino de sal marinho e sal-gema","2021-08-04 01:05:33",,,,,46
+74,08.93-2,"Extração de gemas (pedras preciosas e semipreciosas)","2021-08-04 01:05:33",,,,,47
+75,08.99-1,"Extração de minerais não-metálicos não especificados anteriormente","2021-08-04 01:05:33",,,,,48
+78,09.10-6,"Atividades de apoio à extração de petróleo e gás natural","2021-08-04 01:05:33",,,,,49
+80,09.90-4,"Atividades de apoio à extração de minerais, exceto petróleo e gás natural","2021-08-04 01:05:33",,,,,50
+84,10.11-2,"Abate de reses, exceto suínos","2021-08-04 01:05:33",,,,,51
+85,10.12-1,"Abate de suínos, aves e outros pequenos animais","2021-08-04 01:05:33",,,,,52
+86,10.13-9,"Fabricação de produtos de carne","2021-08-04 01:05:33",,,,,53
+88,10.20-1,"Preservação do pescado e fabricação de produtos do pescado","2021-08-04 01:05:33",,,,,54
+90,10.31-7,"Fabricação de conservas de frutas","2021-08-04 01:05:33",,,,,55
+91,10.32-5,"Fabricação de conservas de legumes e outros vegetais","2021-08-04 01:05:33",,,,,56
+92,10.33-3,"Fabricação de sucos de frutas, hortaliças e legumes","2021-08-04 01:05:33",,,,,57
+94,10.41-4,"Fabricação de óleos vegetais em bruto, exceto óleo de milho","2021-08-04 01:05:33",,,,,58
+95,10.42-2,"Fabricação de óleos vegetais refinados, exceto óleo de milho","2021-08-04 01:05:33",,,,,59
+96,10.43-1,"Fabricação de margarina e outras gorduras vegetais e de óleos não-comestíveis de animais","2021-08-04 01:05:33",,,,,60
+98,10.51-1,"Preparação do leite","2021-08-04 01:05:33",,,,,61
+99,10.52-0,"Fabricação de laticínios","2021-08-04 01:05:33",,,,,62
+100,10.53-8,"Fabricação de sorvetes e outros gelados comestíveis","2021-08-04 01:05:33",,,,,63
+102,10.61-9,"Beneficiamento de arroz e fabricação de produtos do arroz","2021-08-04 01:05:33",,,,,64
+103,10.62-7,"Moagem de trigo e fabricação de derivados","2021-08-04 01:05:33",,,,,65
+104,10.63-5,"Fabricação de farinha de mandioca e derivados","2021-08-04 01:05:33",,,,,66
+105,10.64-3,"Fabricação de farinha de milho e derivados, exceto óleos de milho","2021-08-04 01:05:33",,,,,67
+106,10.65-1,"Fabricação de amidos e féculas de vegetais e de óleos de milho","2021-08-04 01:05:33",,,,,68
+107,10.66-0,"Fabricação de alimentos para animais","2021-08-04 01:05:33",,,,,69
+108,10.69-4,"Moagem e fabricação de produtos de origem vegetal não especificados anteriormente","2021-08-04 01:05:33",,,,,70
+110,10.71-6,"Fabricação de açúcar em bruto","2021-08-04 01:05:33",,,,,71
+111,10.72-4,"Fabricação de açúcar refinado","2021-08-04 01:05:33",,,,,72
+113,10.81-3,"Torrefação e moagem de café","2021-08-04 01:05:33",,,,,73
+114,10.82-1,"Fabricação de produtos à base de café","2021-08-04 01:05:33",,,,,74
+116,10.91-1,"Fabricação de produtos de panificação","2021-08-04 01:05:33",,,,,75
+117,10.92-9,"Fabricação de biscoitos e bolachas","2021-08-04 01:05:33",,,,,76
+118,10.93-7,"Fabricação de produtos derivados do cacau, de chocolates e confeitos","2021-08-04 01:05:33",,,,,77
+119,10.94-5,"Fabricação de massas alimentícias","2021-08-04 01:05:33",,,,,78
+120,10.95-3,"Fabricação de especiarias, molhos, temperos e condimentos","2021-08-04 01:05:33",,,,,79
+121,10.96-1,"Fabricação de alimentos e pratos prontos","2021-08-04 01:05:33",,,,,80
+122,10.99-6,"Fabricação de produtos alimentícios não especificados anteriormente","2021-08-04 01:05:33",,,,,81
+125,11.11-9,"Fabricação de aguardentes e outras bebidas destiladas","2021-08-04 01:05:33",,,,,82
+126,11.12-7,"Fabricação de vinho","2021-08-04 01:05:33",,,,,83
+127,11.13-5,"Fabricação de malte, cervejas e chopes","2021-08-04 01:05:33",,,,,84
+129,11.21-6,"Fabricação de águas envasadas","2021-08-04 01:05:33",,,,,85
+130,11.22-4,"Fabricação de refrigerantes e de outras bebidas não-alcoólicas","2021-08-04 01:05:33",,,,,86
+133,12.10-7,"Processamento industrial do fumo","2021-08-04 01:05:33",,,,,87
+135,12.20-4,"Fabricação de produtos do fumo","2021-08-04 01:05:33",,,,,88
+138,13.11-1,"Preparação e fiação de fibras de algodão","2021-08-04 01:05:33",,,,,89
+139,13.12-0,"Preparação e fiação de fibras têxteis naturais, exceto algodão","2021-08-04 01:05:33",,,,,90
+140,13.13-8,"Fiação de fibras artificiais e sintéticas","2021-08-04 01:05:33",,,,,91
+141,13.14-6,"Fabricação de linhas para costurar e bordar","2021-08-04 01:05:33",,,,,92
+143,13.21-9,"Tecelagem de fios de algodão","2021-08-04 01:05:33",,,,,93
+144,13.22-7,"Tecelagem de fios de fibras têxteis naturais, exceto algodão","2021-08-04 01:05:33",,,,,94
+145,13.23-5,"Tecelagem de fios de fibras artificiais e sintéticas","2021-08-04 01:05:33",,,,,95
+147,13.30-8,"Fabricação de tecidos de malha","2021-08-04 01:05:33",,,,,96
+149,13.40-5,"Acabamentos em fios, tecidos e artefatos têxteis","2021-08-04 01:05:33",,,,,97
+151,13.51-1,"Fabricação de artefatos têxteis para uso doméstico","2021-08-04 01:05:33",,,,,98
+152,13.52-9,"Fabricação de artefatos de tapeçaria","2021-08-04 01:05:33",,,,,99
+153,13.53-7,"Fabricação de artefatos de cordoaria","2021-08-04 01:05:33",,,,,100
+154,13.54-5,"Fabricação de tecidos especiais, inclusive artefatos","2021-08-04 01:05:33",,,,,101
+155,13.59-6,"Fabricação de outros produtos têxteis não especificados anteriormente","2021-08-04 01:05:33",,,,,102
+158,14.11-8,"Confecção de roupas íntimas","2021-08-04 01:05:33",,,,,103
+159,14.12-6,"Confecção de peças do vestuário, exceto roupas íntimas","2021-08-04 01:05:33",,,,,104
+160,14.13-4,"Confecção de roupas profissionais","2021-08-04 01:05:33",,,,,105
+161,14.14-2,"Fabricação de acessórios do vestuário, exceto para segurança e proteção","2021-08-04 01:05:33",,,,,106
+163,14.21-5,"Fabricação de meias","2021-08-04 01:05:33",,,,,107
+164,14.22-3,"Fabricação de artigos do vestuário, produzidos em malharias e tricotagens, exceto meias","2021-08-04 01:05:33",,,,,108
+167,15.10-6,"Curtimento e outras preparações de couro","2021-08-04 01:05:33",,,,,109
+169,15.21-1,"Fabricação de artigos para viagem, bolsas e semelhantes de qualquer material","2021-08-04 01:05:33",,,,,110
+170,15.29-7,"Fabricação de artefatos de couro não especificados anteriormente","2021-08-04 01:05:33",,,,,111
+172,15.31-9,"Fabricação de calçados de couro","2021-08-04 01:05:33",,,,,112
+173,15.32-7,"Fabricação de tênis de qualquer material","2021-08-04 01:05:33",,,,,113
+174,15.33-5,"Fabricação de calçados de material sintético","2021-08-04 01:05:33",,,,,114
+175,15.39-4,"Fabricação de calçados de materiais não especificados anteriormente","2021-08-04 01:05:33",,,,,115
+177,15.40-8,"Fabricação de partes para calçados, de qualquer material","2021-08-04 01:05:33",,,,,116
+180,16.10-2,"Desdobramento de madeira","2021-08-04 01:05:33",,,,,117
+182,16.21-8,"Fabricação de madeira laminada e de chapas de madeira compensada, prensada e aglomerada","2021-08-04 01:05:33",,,,,118
+183,16.22-6,"Fabricação de estruturas de madeira e de artigos de carpintaria para \nconstrução","2021-08-04 01:05:33",,,,,119
+184,16.23-4,"Fabricação de artefatos de tanoaria e de embalagens de madeira","2021-08-04 01:05:33",,,,,120
+185,16.29-3,"Fabricação de artefatos de madeira, palha, cortiça, vime e material trançado não especificados anteriormente, exceto móveis","2021-08-04 01:05:33",,,,,121
+188,17.10-9,"Fabricação de celulose e outras pastas para a fabricação de papel","2021-08-04 01:05:33",,,,,122
+190,17.21-4,"Fabricação de papel","2021-08-04 01:05:33",,,,,123
+191,17.22-2,"Fabricação de cartolina e papel-cartão","2021-08-04 01:05:33",,,,,124
+193,17.31-1,"Fabricação de embalagens de papel","2021-08-04 01:05:33",,,,,125
+194,17.32-0,"Fabricação de embalagens de cartolina e papel-cartão","2021-08-04 01:05:33",,,,,126
+195,17.33-8,"Fabricação de chapas e de embalagens de papelão ondulado","2021-08-04 01:05:33",,,,,127
+197,17.41-9,"Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório","2021-08-04 01:05:33",,,,,128
+198,17.42-7,"Fabricação de produtos de papel para usos doméstico e higiênico-sanitário","2021-08-04 01:05:33",,,,,129
+199,17.49-4,"Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente","2021-08-04 01:05:33",,,,,130
+202,18.11-3,"Impressão de jornais, livros, revistas e outras publicações periódicas","2021-08-04 01:05:33",,,,,131
+203,18.12-1,"Impressão de material de segurança","2021-08-04 01:05:33",,,,,132
+204,18.13-0,"Impressão de materiais para outros usos","2021-08-04 01:05:33",,,,,133
+206,18.21-1,"Serviços de pré-impressão","2021-08-04 01:05:33",,,,,134
+207,18.22-9,"Serviços de acabamentos gráficos","2021-08-04 01:05:33",,,,,135
+209,18.30-0,"Reprodução de materiais gravados em qualquer suporte","2021-08-04 01:05:33",,,,,136
+212,19.10-1,Coquerias,"2021-08-04 01:05:33",,,,,137
+214,19.21-7,"Fabricação de produtos do refino de petróleo","2021-08-04 01:05:33",,,,,138
+215,19.22-5,"Fabricação de produtos derivados do petróleo, exceto produtos do refino","2021-08-04 01:05:33",,,,,139
+217,19.31-4,"Fabricação de álcool","2021-08-04 01:05:33",,,,,140
+218,19.32-2,"Fabricação de biocombustíveis, exceto álcool","2021-08-04 01:05:33",,,,,141
+221,20.11-8,"Fabricação de cloro e álcalis","2021-08-04 01:05:33",,,,,142
+222,20.12-6,"Fabricação de intermediários para fertilizantes","2021-08-04 01:05:33",,,,,143
+223,20.13-4,"Fabricação de adubos e fertilizantes","2021-08-04 01:05:33",,,,,144
+224,20.14-2,"Fabricação de gases industriais","2021-08-04 01:05:33",,,,,145
+225,20.19-3,"Fabricação de produtos químicos inorgânicos não especificados anteriormente","2021-08-04 01:05:33",,,,,146
+227,20.21-5,"Fabricação de produtos petroquímicos básicos","2021-08-04 01:05:33",,,,,147
+228,20.22-3,"Fabricação de intermediários para plastificantes, resinas e fibras","2021-08-04 01:05:33",,,,,148
+229,20.29-1,"Fabricação de produtos químicos orgânicos não especificados anteriormente","2021-08-04 01:05:33",,,,,149
+231,20.31-2,"Fabricação de resinas termoplásticas","2021-08-04 01:05:33",,,,,150
+232,20.32-1,"Fabricação de resinas termofixas","2021-08-04 01:05:33",,,,,151
+233,20.33-9,"Fabricação de elastômeros","2021-08-04 01:05:33",,,,,152
+235,20.40-1,"Fabricação de fibras artificiais e sintéticas","2021-08-04 01:05:33",,,,,153
+237,20.51-7,"Fabricação de defensivos agrícolas","2021-08-04 01:05:33",,,,,154
+238,20.52-5,"Fabricação de desinfestantes domissanitários","2021-08-04 01:05:33",,,,,155
+240,20.61-4,"Fabricação de sabões e detergentes sintéticos","2021-08-04 01:05:33",,,,,156
+241,20.62-2,"Fabricação de produtos de limpeza e polimento","2021-08-04 01:05:33",,,,,157
+242,20.63-1,"Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal","2021-08-04 01:05:33",,,,,158
+244,20.71-1,"Fabricação de tintas, vernizes, esmaltes e lacas","2021-08-04 01:05:33",,,,,159
+245,20.72-0,"Fabricação de tintas de impressão","2021-08-04 01:05:33",,,,,160
+246,20.73-8,"Fabricação de impermeabilizantes, solventes e produtos afins","2021-08-04 01:05:33",,,,,161
+248,20.91-6,"Fabricação de adesivos e selantes","2021-08-04 01:05:33",,,,,162
+249,20.92-4,"Fabricação de explosivos","2021-08-04 01:05:33",,,,,163
+250,20.93-2,"Fabricação de aditivos de uso industrial","2021-08-04 01:05:33",,,,,164
+251,20.94-1,"Fabricação de catalisadores","2021-08-04 01:05:33",,,,,165
+252,20.99-1,"Fabricação de produtos químicos não especificados anteriormente","2021-08-04 01:05:33",,,,,166
+255,21.10-6,"Fabricação de produtos farmoquímicos","2021-08-04 01:05:33",,,,,167
+257,21.21-1,"Fabricação de medicamentos para uso humano","2021-08-04 01:05:33",,,,,168
+258,21.22-0,"Fabricação de medicamentos para uso veterinário","2021-08-04 01:05:33",,,,,169
+259,21.23-8,"Fabricação de preparações farmacêuticas","2021-08-04 01:05:33",,,,,170
+262,22.11-1,"Fabricação de pneumáticos e de câmaras-de-ar","2021-08-04 01:05:33",,,,,171
+263,22.12-9,"Reforma de pneumáticos usados","2021-08-04 01:05:33",,,,,172
+264,22.19-6,"Fabricação de artefatos de borracha não especificados anteriormente","2021-08-04 01:05:33",,,,,173
+266,22.21-8,"Fabricação de laminados planos e tubulares de material plástico","2021-08-04 01:05:33",,,,,174
+267,22.22-6,"Fabricação de embalagens de material plástico","2021-08-04 01:05:33",,,,,175
+268,22.23-4,"Fabricação de tubos e acessórios de material plástico para uso na construção","2021-08-04 01:05:33",,,,,176
+269,22.29-3,"Fabricação de artefatos de material plástico não especificados anteriormente","2021-08-04 01:05:33",,,,,177
+272,23.11-7,"Fabricação de vidro plano e de segurança","2021-08-04 01:05:33",,,,,178
+273,23.12-5,"Fabricação de embalagens de vidro","2021-08-04 01:05:33",,,,,179
+274,23.19-2,"Fabricação de artigos de vidro","2021-08-04 01:05:33",,,,,180
+276,23.20-6,"Fabricação de cimento","2021-08-04 01:05:33",,,,,181
+278,23.30-3,"Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes","2021-08-04 01:05:33",,,,,182
+280,23.41-9,"Fabricação de produtos cerâmicos refratários","2021-08-04 01:05:33",,,,,183
+281,23.42-7,"Fabricação de produtos cerâmicos não-refratários para uso estrutural na construção","2021-08-04 01:05:33",,,,,184
+282,23.49-4,"Fabricação de produtos cerâmicos não-refratários não especificados anteriormente","2021-08-04 01:05:33",,,,,185
+284,23.91-5,"Aparelhamento e outros trabalhos em pedras","2021-08-04 01:05:33",,,,,186
+285,23.92-3,"Fabricação de cal e gesso","2021-08-04 01:05:33",,,,,187
+286,23.99-1,"Fabricação de produtos de minerais não-metálicos não especificados anteriormente","2021-08-04 01:05:33",,,,,188
+289,24.11-3,"Produção de ferro-gusa","2021-08-04 01:05:33",,,,,189
+290,24.12-1,"Produção de ferroligas","2021-08-04 01:05:33",,,,,190
+292,24.21-1,"Produção de semi-acabados de aço","2021-08-04 01:05:33",,,,,191
+293,24.22-9,"Produção de laminados planos de aço","2021-08-04 01:05:33",,,,,192
+294,24.23-7,"Produção de laminados longos de aço","2021-08-04 01:05:33",,,,,193
+295,24.24-5,"Produção de relaminados, trefilados e perfilados de aço","2021-08-04 01:05:33",,,,,194
+297,24.31-8,"Produção de tubos de aço com costura","2021-08-04 01:05:33",,,,,195
+298,24.39-3,"Produção de outros tubos de ferro e aço","2021-08-04 01:05:33",,,,,196
+300,24.41-5,"Metalurgia do alumínio e suas ligas","2021-08-04 01:05:33",,,,,197
+301,24.42-3,"Metalurgia dos metais preciosos","2021-08-04 01:05:33",,,,,198
+302,24.43-1,"Metalurgia do cobre","2021-08-04 01:05:33",,,,,199
+303,24.49-1,"Metalurgia dos metais não-ferrosos e suas ligas não especificados anteriormente","2021-08-04 01:05:33",,,,,200
+305,24.51-2,"Fundição de ferro e aço","2021-08-04 01:05:33",,,,,201
+306,24.52-1,"Fundição de metais não-ferrosos e suas ligas","2021-08-04 01:05:33",,,,,202
+309,25.11-0,"Fabricação de estruturas metálicas","2021-08-04 01:05:33",,,,,203
+310,25.12-8,"Fabricação de esquadrias de metal","2021-08-04 01:05:33",,,,,204
+311,25.13-6,"Fabricação de obras de caldeiraria pesada","2021-08-04 01:05:33",,,,,205
+313,25.21-7,"Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central","2021-08-04 01:05:33",,,,,206
+314,25.22-5,"Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos","2021-08-04 01:05:33",,,,,207
+316,25.31-4,"Produção de forjados de aço e de metais não-ferrosos e suas ligas","2021-08-04 01:05:33",,,,,208
+317,25.32-2,"Produção de artefatos estampados de metal; metalurgia do pó","2021-08-04 01:05:33",,,,,209
+318,25.39-0,"Serviços de usinagem, solda, tratamento e revestimento em metais","2021-08-04 01:05:33",,,,,210
+320,25.41-1,"Fabricação de artigos de cutelaria","2021-08-04 01:05:33",,,,,211
+321,25.42-0,"Fabricação de artigos de serralheria, exceto esquadrias","2021-08-04 01:05:33",,,,,212
+322,25.43-8,"Fabricação de ferramentas","2021-08-04 01:05:33",,,,,213
+324,25.50-1,"Fabricação de equipamento bélico pesado, armas de fogo e munições","2021-08-04 01:05:33",,,,,214
+326,25.91-8,"Fabricação de embalagens metálicas","2021-08-04 01:05:33",,,,,215
+327,25.92-6,"Fabricação de produtos de trefilados de metal","2021-08-04 01:05:33",,,,,216
+328,25.93-4,"Fabricação de artigos de metal para uso doméstico e pessoal","2021-08-04 01:05:33",,,,,217
+329,25.99-3,"Fabricação de produtos de metal não especificados anteriormente","2021-08-04 01:05:33",,,,,218
+332,26.10-8,"Fabricação de componentes eletrônicos","2021-08-04 01:05:33",,,,,219
+334,26.21-3,"Fabricação de equipamentos de informática","2021-08-04 01:05:33",,,,,220
+335,26.22-1,"Fabricação de periféricos para equipamentos de informática","2021-08-04 01:05:33",,,,,221
+340,26.31-1,"Fabricação de equipamentos transmissores de comunicação","2021-08-04 01:05:33",,,,,222
+341,26.32-9,"Fabricação de aparelhos telefônicos e de outros equipamentos de comunicação","2021-08-04 01:05:33",,,,,223
+343,26.40-0,"Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo","2021-08-04 01:05:33",,,,,224
+345,26.51-5,"Fabricação de aparelhos e equipamentos de medida, teste e controle","2021-08-04 01:05:33",,,,,225
+346,26.52-3,"Fabricação de cronômetros e relógios","2021-08-04 01:05:33",,,,,226
+348,26.60-4,"Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação","2021-08-04 01:05:33",,,,,227
+350,26.70-1,"Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos","2021-08-04 01:05:33",,,,,228
+352,26.80-9,"Fabricação de mídias virgens, magnéticas e ópticas","2021-08-04 01:05:33",,,,,229
+355,27.10-4,"Fabricação de geradores, transformadores e motores elétricos","2021-08-04 01:05:33",,,,,230
+357,27.21-0,"Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores","2021-08-04 01:05:33",,,,,231
+358,27.22-8,"Fabricação de baterias e acumuladores para veículos automotores","2021-08-04 01:05:33",,,,,232
+360,27.31-7,"Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica","2021-08-04 01:05:33",,,,,233
+361,27.32-5,"Fabricação de material elétrico para instalações em circuito de consumo","2021-08-04 01:05:33",,,,,234
+362,27.33-3,"Fabricação de fios, cabos e condutores elétricos isolados","2021-08-04 01:05:33",,,,,235
+364,27.40-6,"Fabricação de lâmpadas e outros equipamentos de iluminação","2021-08-04 01:05:33",,,,,236
+366,27.51-1,"Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico","2021-08-04 01:05:33",,,,,237
+367,27.59-7,"Fabricação de aparelhos eletrodomésticos não especificados anteriormente","2021-08-04 01:05:33",,,,,238
+369,27.90-2,"Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente","2021-08-04 01:05:33",,,,,239
+372,28.11-9,"Fabricação de motores e turbinas, exceto para aviões e veículos rodoviários","2021-08-04 01:05:33",,,,,240
+376,28.12-7,"Fabricação de equipamentos hidráulicos e pneumáticos, exceto válvulas","2021-08-04 01:05:33",,,,,241
+377,28.13-5,"Fabricação de válvulas, registros e dispositivos semelhantes","2021-08-04 01:05:33",,,,,242
+378,28.14-3,"Fabricação de compressores","2021-08-04 01:05:33",,,,,243
+379,28.15-1,"Fabricação de equipamentos de transmissão para fins industriais","2021-08-04 01:05:33",,,,,244
+381,28.21-6,"Fabricação de aparelhos e equipamentos para instalações térmicas","2021-08-04 01:05:33",,,,,245
+382,28.22-4,"Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas","2021-08-04 01:05:33",,,,,246
+383,28.23-2,"Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial","2021-08-04 01:05:33",,,,,247
+384,28.24-1,"Fabricação de aparelhos e equipamentos de ar condicionado","2021-08-04 01:05:33",,,,,248
+385,28.25-9,"Fabricação de máquinas e equipamentos para saneamento básico e ambiental","2021-08-04 01:05:33",,,,,249
+386,28.29-1,"Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente","2021-08-04 01:05:33",,,,,250
+388,28.31-3,"Fabricação de tratores agrícolas","2021-08-04 01:05:33",,,,,251
+389,28.32-1,"Fabricação de equipamentos para irrigação agrícola","2021-08-04 01:05:33",,,,,252
+390,28.33-0,"Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação","2021-08-04 01:05:33",,,,,253
+392,28.40-2,"Fabricação de máquinas-ferramenta","2021-08-04 01:05:33",,,,,254
+394,28.51-8,"Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo","2021-08-04 01:05:33",,,,,255
+395,28.52-6,"Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo","2021-08-04 01:05:33",,,,,256
+396,28.53-4,"Fabricação de tratores, exceto agrícolas","2021-08-04 01:05:33",,,,,257
+397,28.54-2,"Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores","2021-08-04 01:05:33",,,,,258
+399,28.61-5,"Fabricação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta","2021-08-04 01:05:33",,,,,259
+400,28.62-3,"Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo","2021-08-04 01:05:33",,,,,260
+401,28.63-1,"Fabricação de máquinas e equipamentos para a indústria têxtil","2021-08-04 01:05:33",,,,,261
+402,28.64-0,"Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados","2021-08-04 01:05:33",,,,,262
+403,28.65-8,"Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos","2021-08-04 01:05:33",,,,,263
+404,28.66-6,"Fabricação de máquinas e equipamentos para a indústria do plástico","2021-08-04 01:05:33",,,,,264
+405,28.69-1,"Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente","2021-08-04 01:05:33",,,,,265
+408,29.10-7,"Fabricação de automóveis, camionetas e utilitários","2021-08-04 01:05:33",,,,,266
+413,29.20-4,"Fabricação de caminhões e ônibus","2021-08-04 01:05:33",,,,,267
+415,29.30-1,"Fabricação de cabines, carrocerias e reboques para veículos automotores","2021-08-04 01:05:33",,,,,268
+417,29.41-7,"Fabricação de peças e acessórios para o sistema motor de veículos automotores","2021-08-04 01:05:33",,,,,269
+418,29.42-5,"Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores","2021-08-04 01:05:33",,,,,270
+419,29.43-3,"Fabricação de peças e acessórios para o sistema de freios de veículos automotores","2021-08-04 01:05:33",,,,,271
+420,29.44-1,"Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores","2021-08-04 01:05:33",,,,,272
+421,29.45-0,"Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias","2021-08-04 01:05:33",,,,,273
+422,29.49-2,"Fabricação de peças e acessórios para veículos automotores não especificados anteriormente","2021-08-04 01:05:33",,,,,274
+424,29.50-6,"Recondicionamento e recuperação de motores para veículos automotores","2021-08-04 01:05:33",,,,,275
+427,30.11-3,"Construção de embarcações e estruturas flutuantes","2021-08-04 01:05:33",,,,,276
+428,30.12-1,"Construção de embarcações para esporte e lazer","2021-08-04 01:05:33",,,,,277
+430,30.31-8,"Fabricação de locomotivas, vagões e outros materiais rodantes","2021-08-04 01:05:33",,,,,278
+431,30.32-6,"Fabricação de peças e acessórios para veículos ferroviários","2021-08-04 01:05:33",,,,,279
+433,30.41-5,"Fabricação de aeronaves","2021-08-04 01:05:33",,,,,280
+434,30.42-3,"Fabricação de turbinas, motores e outros componentes e peças para aeronaves","2021-08-04 01:05:33",,,,,281
+436,30.50-4,"Fabricação de veículos militares de combate","2021-08-04 01:05:33",,,,,282
+438,30.91-1,"Fabricação de motocicletas","2021-08-04 01:05:33",,,,,283
+439,30.92-0,"Fabricação de bicicletas e triciclos não-motorizados","2021-08-04 01:05:33",,,,,284
+440,30.99-7,"Fabricação de equipamentos de transporte não especificados anteriormente","2021-08-04 01:05:33",,,,,285
+443,31.01-2,"Fabricação de móveis com predominância de madeira","2021-08-04 01:05:33",,,,,286
+444,31.02-1,"Fabricação de móveis com predominância de metal","2021-08-04 01:05:33",,,,,287
+445,31.03-9,"Fabricação de móveis de outros materiais, exceto madeira e metal","2021-08-04 01:05:33",,,,,288
+446,31.04-7,"Fabricação de colchões","2021-08-04 01:05:33",,,,,289
+449,32.11-6,"Lapidação de gemas e fabricação de artefatos de ourivesaria e joalheria","2021-08-04 01:05:33",,,,,290
+450,32.12-4,"Fabricação de bijuterias e artefatos semelhantes","2021-08-04 01:05:33",,,,,291
+455,32.20-5,"Fabricação de instrumentos musicais","2021-08-04 01:05:33",,,,,292
+457,32.30-2,"Fabricação de artefatos para pesca e esporte","2021-08-04 01:05:33",,,,,293
+459,32.40-0,"Fabricação de brinquedos e jogos recreativos","2021-08-04 01:05:33",,,,,294
+461,32.50-7,"Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos","2021-08-04 01:05:33",,,,,295
+463,32.91-4,"Fabricação de escovas, pincéis e vassouras","2021-08-04 01:05:33",,,,,296
+464,32.92-2,"Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional","2021-08-04 01:05:33",,,,,297
+465,32.99-0,"Fabricação de produtos diversos não especificados anteriormente","2021-08-04 01:05:33",,,,,298
+468,33.11-2,"Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos","2021-08-04 01:05:33",,,,,299
+469,33.12-1,"Manutenção e reparação de equipamentos eletrônicos e ópticos","2021-08-04 01:05:33",,,,,300
+470,33.13-9,"Manutenção e reparação de máquinas e equipamentos elétricos","2021-08-04 01:05:33",,,,,301
+471,33.14-7,"Manutenção e reparação de máquinas e equipamentos da indústria mecânica","2021-08-04 01:05:33",,,,,302
+472,33.15-5,"Manutenção e reparação de veículos ferroviários","2021-08-04 01:05:33",,,,,303
+473,33.16-3,"Manutenção e reparação de aeronaves","2021-08-04 01:05:33",,,,,304
+474,33.17-1,"Manutenção e reparação de embarcações","2021-08-04 01:05:33",,,,,305
+475,33.19-8,"Manutenção e reparação de equipamentos e produtos não especificados anteriormente","2021-08-04 01:05:33",,,,,306
+477,33.21-0,"Instalação de máquinas e equipamentos industriais","2021-08-04 01:05:33",,,,,307
+478,33.29-5,"Instalação de equipamentos não especificados anteriormente","2021-08-04 01:05:33",,,,,308
+482,35.11-5,"Geração de energia elétrica","2021-08-04 01:05:33",,,,,309
+483,35.12-3,"Transmissão de energia elétrica","2021-08-04 01:05:33",,,,,310
+484,35.13-1,"Comércio atacadista de energia elétrica","2021-08-04 01:05:33",,,,,311
+485,35.14-0,"Distribuição de energia elétrica","2021-08-04 01:05:33",,,,,312
+487,35.20-4,"Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas","2021-08-04 01:05:33",,,,,313
+489,35.30-1,"Produção e distribuição de vapor, água quente e ar condicionado","2021-08-04 01:05:33",,,,,314
+493,36.00-6,"Captação, tratamento e distribuição de água","2021-08-04 01:05:33",,,,,315
+499,37.01-1,"Gestão de redes de esgoto","2021-08-04 01:05:33",,,,,316
+500,37.02-9,"Atividades relacionadas a esgoto, exceto a gestão de redes","2021-08-04 01:05:33",,,,,317
+503,38.11-4,"Coleta de resíduos não-perigosos","2021-08-04 01:05:33",,,,,318
+504,38.12-2,"Coleta de resíduos perigosos","2021-08-04 01:05:33",,,,,319
+506,38.21-1,"Tratamento e disposição de resíduos não-perigosos","2021-08-04 01:05:33",,,,,320
+507,38.22-0,"Tratamento e disposição de resíduos perigosos","2021-08-04 01:05:33",,,,,321
+509,38.31-9,"Recuperação de materiais metálicos","2021-08-04 01:05:33",,,,,322
+510,38.32-7,"Recuperação de materiais plásticos","2021-08-04 01:05:33",,,,,323
+511,38.39-4,"Recuperação de materiais não especificados anteriormente","2021-08-04 01:05:33",,,,,324
+514,39.00-5,"Descontaminação e outros serviços de gestão de resíduos","2021-08-04 01:05:33",,,,,325
+518,41.10-7,"Incorporação de empreendimentos imobiliários","2021-08-04 01:05:33",,,,,326
+520,41.20-4,"Construção de edifícios","2021-08-04 01:05:33",,,,,327
+523,42.11-1,"Construção de rodovias e ferrovias","2021-08-04 01:05:33",,,,,328
+524,42.12-0,"Construção de obras-de-arte especiais","2021-08-04 01:05:33",,,,,329
+525,42.13-8,"Obras de urbanização - ruas, praças e calçadas","2021-08-04 01:05:33",,,,,330
+527,42.21-9,"Obras para geração e distribuição de energia elétrica e para telecomunicações","2021-08-04 01:05:33",,,,,331
+528,42.22-7,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas","2021-08-04 01:05:33",,,,,332
+529,42.23-5,"Construção de redes de transportes por dutos, exceto para água e esgoto","2021-08-04 01:05:33",,,,,333
+531,42.91-0,"Obras portuárias, marítimas e fluviais","2021-08-04 01:05:33",,,,,334
+532,42.92-8,"Montagem de instalações industriais e de estruturas metálicas","2021-08-04 01:05:33",,,,,335
+533,42.99-5,"Obras de engenharia civil não especificadas anteriormente","2021-08-04 01:05:33",,,,,336
+536,43.11-8,"Demolição e preparação de canteiros de obras","2021-08-04 01:05:33",,,,,337
+537,43.12-6,"Perfurações e sondagens","2021-08-04 01:05:33",,,,,338
+538,43.13-4,"Obras de terraplenagem","2021-08-04 01:05:33",,,,,339
+539,43.19-3,"Serviços de preparação do terreno não especificados anteriormente","2021-08-04 01:05:33",,,,,340
+544,43.21-5,"Instalações elétricas","2021-08-04 01:05:33",,,,,341
+545,43.22-3,"Instalações hidráulicas, de sistemas de ventilação e refrigeração","2021-08-04 01:05:33",,,,,342
+546,43.29-1,"Obras de instalações em construções não especificadas anteriormente","2021-08-04 01:05:33",,,,,343
+548,43.30-4,"Obras de acabamento","2021-08-04 01:05:33",,,,,344
+550,43.91-6,"Obras de fundações","2021-08-04 01:05:33",,,,,345
+551,43.99-1,"Serviços especializados para construção não especificados anteriormente","2021-08-04 01:05:33",,,,,346
+555,45.11-1,"Comércio a varejo e por atacado de veículos automotores","2021-08-04 01:05:33",,,,,347
+556,45.12-9,"Representantes comerciais e agentes do comércio de veículos automotores","2021-08-04 01:05:33",,,,,348
+558,45.20-0,"Manutenção e reparação de veículos automotores","2021-08-04 01:05:33",,,,,349
+560,45.30-7,"Comércio de peças e acessórios para veículos automotores","2021-08-04 01:05:33",,,,,350
+562,45.41-2,"Comércio por atacado e a varejo de motocicletas, peças e acessórios","2021-08-04 01:05:33",,,,,351
+563,45.42-1,"Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios","2021-08-04 01:05:33",,,,,352
+564,45.43-9,"Manutenção e reparação de motocicletas","2021-08-04 01:05:33",,,,,353
+567,46.11-7,"Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos","2021-08-04 01:05:33",,,,,354
+568,46.12-5,"Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos","2021-08-04 01:05:33",,,,,355
+569,46.13-3,"Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens","2021-08-04 01:05:33",,,,,356
+570,46.14-1,"Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves","2021-08-04 01:05:33",,,,,357
+571,46.15-0,"Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico","2021-08-04 01:05:33",,,,,358
+572,46.16-8,"Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem","2021-08-04 01:05:33",,,,,359
+573,46.17-6,"Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo","2021-08-04 01:05:33",,,,,360
+574,46.18-4,"Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente","2021-08-04 01:05:33",,,,,361
+575,46.19-2,"Representantes comerciais e agentes do comércio de mercadorias em geral não especializado","2021-08-04 01:05:33",,,,,362
+580,46.21-4,"Comércio atacadista de café em grão","2021-08-04 01:05:33",,,,,363
+581,46.22-2,"Comércio atacadista de soja","2021-08-04 01:05:33",,,,,364
+582,46.23-1,"Comércio atacadista de animais vivos, alimentos para animais e matérias-primas agrícolas, exceto café e soja","2021-08-04 01:05:33",,,,,365
+584,46.31-1,"Comércio atacadista de leite e laticínios","2021-08-04 01:05:33",,,,,366
+585,46.32-0,"Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas","2021-08-04 01:05:33",,,,,367
+586,46.33-8,"Comércio atacadista de hortifrutigranjeiros","2021-08-04 01:05:33",,,,,368
+587,46.34-6,"Comércio atacadista de carnes, produtos da carne e pescado","2021-08-04 01:05:33",,,,,369
+588,46.35-4,"Comércio atacadista de bebidas","2021-08-04 01:05:33",,,,,370
+589,46.36-2,"Comércio atacadista de produtos do fumo","2021-08-04 01:05:33",,,,,371
+590,46.37-1,"Comércio atacadista especializado em produtos alimentícios não especificados anteriormente","2021-08-04 01:05:33",,,,,372
+591,46.39-7,"Comércio atacadista de produtos alimentícios em geral","2021-08-04 01:05:33",,,,,373
+593,46.41-9,"Comércio atacadista de tecidos, artefatos de tecidos e de armarinho","2021-08-04 01:05:33",,,,,374
+594,46.42-7,"Comércio atacadista de artigos do vestuário e acessórios","2021-08-04 01:05:33",,,,,375
+595,46.43-5,"Comércio atacadista de calçados e artigos de viagem","2021-08-04 01:05:33",,,,,376
+596,46.44-3,"Comércio atacadista de produtos farmacêuticos para uso humano e veterinário","2021-08-04 01:05:33",,,,,377
+597,46.45-1,"Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, ortopédico e odontológico","2021-08-04 01:05:33",,,,,378
+598,46.46-0,"Comércio atacadista de cosméticos, produtos de perfumaria e de higiene pessoal","2021-08-04 01:05:33",,,,,379
+599,46.47-8,"Comércio atacadista de artigos de escritório e de papelaria; livros, jornais e outras publicações","2021-08-04 01:05:33",,,,,380
+600,46.49-4,"Comércio atacadista de equipamentos e artigos de uso pessoal e doméstico não especificados anteriormente","2021-08-04 01:05:33",,,,,381
+602,46.51-6,"Comércio atacadista de computadores, periféricos e suprimentos de informática","2021-08-04 01:05:33",,,,,382
+603,46.52-4,"Comércio atacadista de componentes eletrônicos e equipamentos de telefonia e comunicação","2021-08-04 01:05:33",,,,,383
+605,46.61-3,"Comércio atacadista de máquinas, aparelhos e equipamentos para uso agropecuário; partes e peças","2021-08-04 01:05:33",,,,,384
+606,46.62-1,"Comércio atacadista de máquinas, equipamentos para terraplenagem, mineração e construção; partes e peças","2021-08-04 01:05:33",,,,,385
+607,46.63-0,"Comércio atacadista de máquinas e equipamentos para uso industrial; partes e peças","2021-08-04 01:05:33",,,,,386
+608,46.64-8,"Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças","2021-08-04 01:05:33",,,,,387
+609,46.65-6,"Comércio atacadista de máquinas e equipamentos para uso comercial; partes e peças","2021-08-04 01:05:33",,,,,388
+610,46.69-9,"Comércio atacadista de máquinas, aparelhos e equipamentos não especificados anteriormente; partes e peças","2021-08-04 01:05:33",,,,,389
+615,46.71-1,"Comércio atacadista de madeira e produtos derivados","2021-08-04 01:05:33",,,,,390
+616,46.72-9,"Comércio atacadista de ferragens e ferramentas","2021-08-04 01:05:33",,,,,391
+617,46.73-7,"Comércio atacadista de material elétrico","2021-08-04 01:05:33",,,,,392
+618,46.74-5,"Comércio atacadista de cimento","2021-08-04 01:05:33",,,,,393
+619,46.79-6,"Comércio atacadista especializado de materiais de construção não especificados anteriormente e de materiais de construção em geral","2021-08-04 01:05:33",,,,,394
+621,46.81-8,"Comércio atacadista de combustíveis sólidos, líquidos e gasosos, exceto gás natural e GLP","2021-08-04 01:05:33",,,,,395
+622,46.82-6,"Comércio atacadista de gás liqüefeito de petróleo (GLP)","2021-08-04 01:05:33",,,,,396
+623,46.83-4,"Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo","2021-08-04 01:05:33",,,,,397
+624,46.84-2,"Comércio atacadista de produtos químicos e petroquímicos, exceto agroquímicos","2021-08-04 01:05:33",,,,,398
+625,46.85-1,"Comércio atacadista de produtos siderúrgicos e metalúrgicos, exceto para construção","2021-08-04 01:05:33",,,,,399
+626,46.86-9,"Comércio atacadista de papel e papelão em bruto e de embalagens","2021-08-04 01:05:33",,,,,400
+627,46.87-7,"Comércio atacadista de resíduos e sucatas","2021-08-04 01:05:33",,,,,401
+628,46.89-3,"Comércio atacadista especializado de outros produtos intermediários não especificados anteriormente","2021-08-04 01:05:33",,,,,402
+630,46.91-5,"Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios","2021-08-04 01:05:33",,,,,403
+631,46.92-3,"Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários","2021-08-04 01:05:33",,,,,404
+632,46.93-1,"Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários","2021-08-04 01:05:33",,,,,405
+635,47.11-3,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados e supermercados","2021-08-04 01:05:33",,,,,406
+636,47.12-1,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns","2021-08-04 01:05:33",,,,,407
+637,47.13-0,"Comércio varejista de mercadorias em geral, sem predominância de produtos alimentícios","2021-08-04 01:05:33",,,,,408
+639,47.21-1,"Comércio varejista de produtos de padaria, laticínio, doces, balas e semelhantes","2021-08-04 01:05:33",,,,,409
+640,47.22-9,"Comércio varejista de carnes e pescados - açougues e peixarias","2021-08-04 01:05:33",,,,,410
+641,47.23-7,"Comércio varejista de bebidas","2021-08-04 01:05:33",,,,,411
+642,47.24-5,"Comércio varejista de hortifrutigranjeiros","2021-08-04 01:05:33",,,,,412
+643,47.29-6,"Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente; produtos do fumo","2021-08-04 01:05:33",,,,,413
+645,47.31-8,"Comércio varejista de combustíveis para veículos automotores","2021-08-04 01:05:33",,,,,414
+646,47.32-6,"Comércio varejista de lubrificantes","2021-08-04 01:05:33",,,,,415
+651,47.41-5,"Comércio varejista de tintas e materiais para pintura","2021-08-04 01:05:33",,,,,416
+652,47.42-3,"Comércio varejista de material elétrico","2021-08-04 01:05:33",,,,,417
+653,47.43-1,"Comércio varejista de vidros","2021-08-04 01:05:33",,,,,418
+654,47.44-0,"Comércio varejista de ferragens, madeira e materiais de construção","2021-08-04 01:05:33",,,,,419
+656,47.51-2,"Comércio varejista especializado de equipamentos e suprimentos de informática","2021-08-04 01:05:33",,,,,420
+657,47.52-1,"Comércio varejista especializado de equipamentos de telefonia e comunicação","2021-08-04 01:05:33",,,,,421
+658,47.53-9,"Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo","2021-08-04 01:05:33",,,,,422
+659,47.54-7,"Comércio varejista especializado de móveis, colchoaria e artigos de iluminação","2021-08-04 01:05:33",,,,,423
+660,47.55-5,"Comércio varejista especializado de tecidos e artigos de cama, mesa e banho","2021-08-04 01:05:33",,,,,424
+661,47.56-3,"Comércio varejista especializado de instrumentos musicais e acessórios","2021-08-04 01:05:33",,,,,425
+662,47.57-1,"Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação","2021-08-04 01:05:33",,,,,426
+663,47.59-8,"Comércio varejista de artigos de uso doméstico não especificados anteriormente","2021-08-04 01:05:33",,,,,427
+665,47.61-0,"Comércio varejista de livros, jornais, revistas e papelaria","2021-08-04 01:05:33",,,,,428
+666,47.62-8,"Comércio varejista de discos, CDs, DVDs e fitas","2021-08-04 01:05:33",,,,,429
+667,47.63-6,"Comércio varejista de artigos recreativos e esportivos","2021-08-04 01:05:33",,,,,430
+669,47.71-7,"Comércio varejista de produtos farmacêuticos para uso humano e veterinário","2021-08-04 01:05:33",,,,,431
+670,47.72-5,"Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal","2021-08-04 01:05:33",,,,,432
+671,47.73-3,"Comércio varejista de artigos médicos e ortopédicos","2021-08-04 01:05:33",,,,,433
+672,47.74-1,"Comércio varejista de artigos de óptica","2021-08-04 01:05:33",,,,,434
+674,47.81-4,"Comércio varejista de artigos do vestuário e acessórios","2021-08-04 01:05:33",,,,,435
+675,47.82-2,"Comércio varejista de calçados e artigos de viagem","2021-08-04 01:05:33",,,,,436
+676,47.83-1,"Comércio varejista de jóias e relógios","2021-08-04 01:05:33",,,,,437
+677,47.84-9,"Comércio varejista de gás liqüefeito de petróleo (GLP)","2021-08-04 01:05:33",,,,,438
+678,47.85-7,"Comércio varejista de artigos usados","2021-08-04 01:05:33",,,,,439
+679,47.89-0,"Comércio varejista de outros produtos novos não especificados anteriormente","2021-08-04 01:05:33",,,,,440
+681,47.90-3,"Comércio ambulante e outros tipos de comércio varejista","2021-08-04 01:05:33",,,,,441
+685,49.11-6,"Transporte ferroviário de carga","2021-08-04 01:05:33",,,,,442
+686,49.12-4,"Transporte metroferroviário de passageiros","2021-08-04 01:05:33",,,,,443
+688,49.21-3,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal e em região metropolitana","2021-08-04 01:05:33",,,,,444
+692,49.22-1,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, interestadual e internacional","2021-08-04 01:05:33",,,,,445
+693,49.23-0,"Transporte rodoviário de táxi","2021-08-04 01:05:33",,,,,446
+694,49.24-8,"Transporte escolar","2021-08-04 01:05:33",,,,,447
+695,49.29-9,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, e outros transportes rodoviários não especificados anteriormente","2021-08-04 01:05:33",,,,,448
+697,49.30-2,"Transporte rodoviário de carga","2021-08-04 01:05:33",,,,,449
+699,49.40-0,"Transporte dutoviário","2021-08-04 01:05:33",,,,,450
+701,49.50-7,"Trens turísticos, teleféricos e similares","2021-08-04 01:05:33",,,,,451
+704,50.11-4,"Transporte marítimo de cabotagem","2021-08-04 01:05:33",,,,,452
+705,50.12-2,"Transporte marítimo de longo curso","2021-08-04 01:05:33",,,,,453
+707,50.21-1,"Transporte por navegação interior de carga","2021-08-04 01:05:33",,,,,454
+708,50.22-0,"Transporte por navegação interior de passageiros em linhas regulares","2021-08-04 01:05:33",,,,,455
+710,50.30-1,"Navegação de apoio","2021-08-04 01:05:33",,,,,456
+712,50.91-2,"Transporte por navegação de travessia","2021-08-04 01:05:33",,,,,457
+713,50.99-8,"Transportes aquaviários não especificados anteriormente","2021-08-04 01:05:33",,,,,458
+716,51.11-1,"Transporte aéreo de passageiros regular","2021-08-04 01:05:33",,,,,459
+717,51.12-9,"Transporte aéreo de passageiros não-regular","2021-08-04 01:05:33",,,,,460
+719,51.20-0,"Transporte aéreo de carga","2021-08-04 01:05:33",,,,,461
+721,51.30-7,"Transporte espacial","2021-08-04 01:05:33",,,,,462
+724,52.11-7,Armazenamento,"2021-08-04 01:05:33",,,,,463
+725,52.12-5,"Carga e descarga","2021-08-04 01:05:33",,,,,464
+727,52.21-4,"Concessionárias de rodovias, pontes, túneis e serviços relacionados","2021-08-04 01:05:33",,,,,465
+728,52.22-2,"Terminais rodoviários e ferroviários","2021-08-04 01:05:33",,,,,466
+729,52.23-1,"Estacionamento de veículos","2021-08-04 01:05:33",,,,,467
+730,52.29-0,"Atividades auxiliares dos transportes terrestres não especificadas anteriormente","2021-08-04 01:05:33",,,,,468
+732,52.31-1,"Gestão de portos e terminais","2021-08-04 01:05:33",,,,,469
+733,52.32-0,"Atividades de agenciamento marítimo","2021-08-04 01:05:33",,,,,470
+737,52.39-7,"Atividades auxiliares dos transportes aquaviários não especificadas anteriormente","2021-08-04 01:05:33",,,,,471
+739,52.40-1,"Atividades auxiliares dos transportes aéreos","2021-08-04 01:05:33",,,,,472
+741,52.50-8,"Atividades relacionadas à organização do transporte de carga","2021-08-04 01:05:33",,,,,473
+744,53.10-5,"Atividades de Correio","2021-08-04 01:05:33",,,,,474
+746,53.20-2,"Atividades de malote e de entrega","2021-08-04 01:05:33",,,,,475
+750,55.10-8,"Hotéis e similares","2021-08-04 01:05:33",,,,,476
+752,55.90-6,"Outros tipos de alojamento não especificados anteriormente","2021-08-04 01:05:33",,,,,477
+755,56.11-2,"Restaurantes e outros estabelecimentos de serviços de alimentação e bebidas","2021-08-04 01:05:33",,,,,478
+756,56.12-1,"Serviços ambulantes de alimentação","2021-08-04 01:05:33",,,,,479
+758,56.20-1,"Serviços de catering, bufê e outros serviços de comida preparada","2021-08-04 01:05:33",,,,,480
+762,58.11-5,"Edição de livros","2021-08-04 01:05:33",,,,,481
+763,58.12-3,"Edição de jornais","2021-08-04 01:05:33",,,,,482
+764,58.13-1,"Edição de revistas","2021-08-04 01:05:33",,,,,483
+765,58.19-1,"Edição de cadastros, listas e outros produtos gráficos","2021-08-04 01:05:33",,,,,484
+767,58.21-2,"Edição integrada à impressão de livros","2021-08-04 01:05:33",,,,,485
+768,58.22-1,"Edição integrada à impressão de jornais","2021-08-04 01:05:33",,,,,486
+769,58.23-9,"Edição integrada à impressão de revistas","2021-08-04 01:05:33",,,,,487
+770,58.29-8,"Edição integrada à impressão de cadastros, listas e outros produtos gráficos","2021-08-04 01:05:33",,,,,488
+773,59.11-1,"Atividades de produção cinematográfica, de vídeos e de programas de televisão","2021-08-04 01:05:33",,,,,489
+774,59.12-0,"Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão","2021-08-04 01:05:33",,,,,490
+775,59.13-8,"Distribuição cinematográfica, de vídeo e de programas de televisão","2021-08-04 01:05:33",,,,,491
+776,59.14-6,"Atividades de exibição cinematográfica","2021-08-04 01:05:33",,,,,492
+781,59.20-1,"Atividades de gravação de som e de edição de música","2021-08-04 01:05:33",,,,,493
+784,60.10-1,"Atividades de rádio","2021-08-04 01:05:33",,,,,494
+786,60.21-7,"Atividades de televisão aberta","2021-08-04 01:05:33",,,,,495
+787,60.22-5,"Programadoras e atividades relacionadas à televisão por assinatura","2021-08-04 01:05:33",,,,,496
+790,61.10-8,"Telecomunicações por fio","2021-08-04 01:05:33",,,,,497
+792,61.20-5,"Telecomunicações sem fio","2021-08-04 01:05:33",,,,,498
+794,61.30-2,"Telecomunicações por satélite","2021-08-04 01:05:33",,,,,499
+796,61.41-8,"Operadoras de televisão por assinatura por cabo","2021-08-04 01:05:33",,,,,500
+797,61.42-6,"Operadoras de televisão por assinatura por microondas","2021-08-04 01:05:33",,,,,501
+798,61.43-4,"Operadoras de televisão por assinatura por satélite","2021-08-04 01:05:33",,,,,502
+800,61.90-6,"Outras atividades de telecomunicações","2021-08-04 01:05:33",,,,,503
+803,62.01-5,"Desenvolvimento de programas de computador sob encomenda","2021-08-04 01:05:33",,,,,504
+804,62.02-3,"Desenvolvimento e licenciamento de programas de computador customizáveis","2021-08-04 01:05:33",,,,,505
+805,62.03-1,"Desenvolvimento e licenciamento de programas de computador não-customizáveis","2021-08-04 01:05:33",,,,,506
+806,62.04-0,"Consultoria em tecnologia da informação","2021-08-04 01:05:33",,,,,507
+807,62.09-1,"Suporte técnico, manutenção e outros serviços em tecnologia da informação","2021-08-04 01:05:33",,,,,508
+810,63.11-9,"Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet","2021-08-04 01:05:33",,,,,509
+811,63.19-4,"Portais, provedores de conteúdo e outros serviços de informação na internet","2021-08-04 01:05:33",,,,,510
+813,63.91-7,"Agências de notícias","2021-08-04 01:05:33",,,,,511
+814,63.99-2,"Outras atividades de prestação de serviços de informação não especificadas anteriormente","2021-08-04 01:05:33",,,,,512
+818,64.10-7,"Banco Central","2021-08-04 01:05:33",,,,,513
+820,64.21-2,"Bancos comerciais","2021-08-04 01:05:33",,,,,514
+821,64.22-1,"Bancos múltiplos, com carteira comercial","2021-08-04 01:05:33",,,,,515
+825,64.23-9,"Caixas econômicas","2021-08-04 01:05:33",,,,,516
+826,64.24-7,"Crédito cooperativo","2021-08-04 01:05:33",,,,,517
+828,64.31-0,"Bancos múltiplos, sem carteira comercial","2021-08-04 01:05:33",,,,,518
+829,64.32-8,"Bancos de investimento","2021-08-04 01:05:33",,,,,519
+830,64.33-6,"Bancos de desenvolvimento","2021-08-04 01:05:33",,,,,520
+831,64.34-4,"Agências de fomento","2021-08-04 01:05:33",,,,,521
+832,64.35-2,"Crédito imobiliário","2021-08-04 01:05:33",,,,,522
+833,64.36-1,"Sociedades de crédito, financiamento e investimento - financeiras","2021-08-04 01:05:33",,,,,523
+834,64.37-9,"Sociedades de crédito ao microempreendedor","2021-08-04 01:05:33",,,,,524
+835,64.38-7,"Bancos de câmbio e outras instituições de intermediação não-monetária","2021-08-04 01:05:33",,,,,525
+837,64.40-9,"Arrendamento mercantil","2021-08-04 01:05:33",,,,,526
+839,64.50-6,"Sociedades de capitalização","2021-08-04 01:05:33",,,,,527
+841,64.61-1,"Holdings de instituições financeiras","2021-08-04 01:05:33",,,,,528
+842,64.62-0,"Holdings de instituições não-financeiras","2021-08-04 01:05:33",,,,,529
+843,64.63-8,"Outras sociedades de participação, exceto holdings","2021-08-04 01:05:33",,,,,530
+845,64.70-1,"Fundos de investimento","2021-08-04 01:05:33",,,,,531
+847,64.91-3,"Sociedades de fomento mercantil - factoring","2021-08-04 01:05:33",,,,,532
+848,64.92-1,"Securitização de créditos","2021-08-04 01:05:33",,,,,533
+849,64.93-0,"Administração de consórcios para aquisição de bens e direitos","2021-08-04 01:05:33",,,,,534
+850,64.99-9,"Outras atividades de serviços financeiros não especificadas anteriormente","2021-08-04 01:05:33",,,,,535
+853,65.11-1,"Seguros de vida","2021-08-04 01:05:33",,,,,536
+854,65.12-0,"Seguros não-vida","2021-08-04 01:05:33",,,,,537
+856,65.20-1,Seguros-saúde,"2021-08-04 01:05:33",,,,,538
+858,65.30-8,Resseguros,"2021-08-04 01:05:33",,,,,539
+860,65.41-3,"Previdência complementar fechada","2021-08-04 01:05:33",,,,,540
+861,65.42-1,"Previdência complementar aberta","2021-08-04 01:05:33",,,,,541
+863,65.50-2,"Planos de saúde","2021-08-04 01:05:33",,,,,542
+866,66.11-8,"Administração de bolsas e mercados de balcão organizados","2021-08-04 01:05:33",,,,,543
+870,66.12-6,"Atividades de intermediários em transações de títulos, valores mobiliários e mercadorias","2021-08-04 01:05:33",,,,,544
+871,66.13-4,"Administração de cartões de crédito","2021-08-04 01:05:33",,,,,545
+872,66.19-3,"Atividades auxiliares dos serviços financeiros não especificadas anteriormente","2021-08-04 01:05:33",,,,,546
+874,66.21-5,"Avaliação de riscos e perdas","2021-08-04 01:05:33",,,,,547
+875,66.22-3,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde","2021-08-04 01:05:33",,,,,548
+876,66.29-1,"Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente","2021-08-04 01:05:33",,,,,549
+878,66.30-4,"Atividades de administração de fundos por contrato ou comissão","2021-08-04 01:05:33",,,,,550
+882,68.10-2,"Atividades imobiliárias de imóveis próprios","2021-08-04 01:05:33",,,,,551
+884,68.21-8,"Intermediação na compra, venda e aluguel de imóveis","2021-08-04 01:05:33",,,,,552
+885,68.22-6,"Gestão e administração da propriedade imobiliária","2021-08-04 01:05:33",,,,,553
+889,69.11-7,"Atividades jurídicas, exceto cartórios","2021-08-04 01:05:33",,,,,554
+890,69.12-5,Cartórios,"2021-08-04 01:05:33",,,,,555
+892,69.20-6,"Atividades de contabilidade, consultoria e auditoria contábil e tributária","2021-08-04 01:05:33",,,,,556
+895,70.10-7,"Sedes de empresas e unidades administrativas locais","2021-08-04 01:05:33",,,,,557
+897,70.20-4,"Atividades de consultoria em gestão empresarial","2021-08-04 01:05:33",,,,,558
+900,71.11-1,"Serviços de arquitetura","2021-08-04 01:05:33",,,,,559
+901,71.12-0,"Serviços de engenharia","2021-08-04 01:05:33",,,,,560
+902,71.19-7,"Atividades técnicas relacionadas à arquitetura e engenharia","2021-08-04 01:05:33",,,,,561
+904,71.20-1,"Testes e análises técnicas","2021-08-04 01:05:33",,,,,562
+907,72.10-0,"Pesquisa e desenvolvimento experimental em ciências físicas e naturais","2021-08-04 01:05:33",,,,,563
+909,72.20-7,"Pesquisa e desenvolvimento experimental em ciências sociais e humanas","2021-08-04 01:05:33",,,,,564
+915,73.11-4,"Agências de publicidade","2021-08-04 01:05:33",,,,,565
+916,73.12-2,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação","2021-08-04 01:05:33",,,,,566
+917,73.19-0,"Atividades de publicidade não especificadas anteriormente","2021-08-04 01:05:33",,,,,567
+919,73.20-3,"Pesquisas de mercado e de opinião pública","2021-08-04 01:05:33",,,,,568
+922,74.10-2,"Design e decoração de interiores","2021-08-04 01:05:33",,,,,569
+924,74.20-0,"Atividades fotográficas e similares","2021-08-04 01:05:33",,,,,570
+926,74.90-1,"Atividades profissionais, científicas e técnicas não especificadas anteriormente","2021-08-04 01:05:33",,,,,571
+929,75.00-1,"Atividades veterinárias","2021-08-04 01:05:33",,,,,572
+933,77.11-0,"Locação de automóveis sem condutor","2021-08-04 01:05:33",,,,,573
+934,77.19-5,"Locação de meios de transporte, exceto automóveis, sem condutor","2021-08-04 01:05:33",,,,,574
+936,77.21-7,"Aluguel de equipamentos recreativos e esportivos","2021-08-04 01:05:33",,,,,575
+937,77.22-5,"Aluguel de fitas de vídeo, DVDs e similares","2021-08-04 01:05:33",,,,,576
+938,77.23-3,"Aluguel de objetos do vestuário, jóias e acessórios","2021-08-04 01:05:33",,,,,577
+939,77.29-2,"Aluguel de objetos pessoais e domésticos não especificados anteriormente","2021-08-04 01:05:33",,,,,578
+941,77.31-4,"Aluguel de máquinas e equipamentos agrícolas sem operador","2021-08-04 01:05:33",,,,,579
+942,77.32-2,"Aluguel de máquinas e equipamentos para construção sem operador","2021-08-04 01:05:33",,,,,580
+943,77.33-1,"Aluguel de máquinas e equipamentos para escritório","2021-08-04 01:05:33",,,,,581
+944,77.39-0,"Aluguel de máquinas e equipamentos não especificados anteriormente","2021-08-04 01:05:33",,,,,582
+946,77.40-3,"Gestão de ativos intangíveis não-financeiros","2021-08-04 01:05:33",,,,,583
+949,78.10-8,"Seleção e agenciamento de mão-de-obra","2021-08-04 01:05:33",,,,,584
+951,78.20-5,"Locação de mão-de-obra temporária","2021-08-04 01:05:33",,,,,585
+953,78.30-2,"Fornecimento e gestão de recursos humanos para terceiros","2021-08-04 01:05:33",,,,,586
+959,79.11-2,"Agências de viagens","2021-08-04 01:05:33",,,,,587
+960,79.12-1,"Operadores turísticos","2021-08-04 01:05:33",,,,,588
+962,79.90-2,"Serviços de reservas e outros serviços de turismo não especificados anteriormente","2021-08-04 01:05:33",,,,,589
+965,80.11-1,"Atividades de vigilância e segurança privada","2021-08-04 01:05:33",,,,,590
+966,80.12-9,"Atividades de transporte de valores","2021-08-04 01:05:33",,,,,591
+968,80.20-0,"Atividades de monitoramento de sistemas de segurança","2021-08-04 01:05:33",,,,,592
+970,80.30-7,"Atividades de investigação particular","2021-08-04 01:05:33",,,,,593
+973,81.11-7,"Serviços combinados para apoio a edifícios, exceto condomínios prediais","2021-08-04 01:05:33",,,,,594
+974,81.12-5,"Condomínios prediais","2021-08-04 01:05:33",,,,,595
+976,81.21-4,"Limpeza em prédios e em domicílios","2021-08-04 01:05:33",,,,,596
+977,81.22-2,"Imunização e controle de pragas urbanas","2021-08-04 01:05:33",,,,,597
+978,81.29-0,"Atividades de limpeza não especificadas anteriormente","2021-08-04 01:05:33",,,,,598
+980,81.30-3,"Atividades paisagísticas","2021-08-04 01:05:33",,,,,599
+983,82.11-3,"Serviços combinados de escritório e apoio administrativo","2021-08-04 01:05:33",,,,,600
+984,82.19-9,"Fotocópias, preparação de documentos e outros serviços especializados de apoio administrativo","2021-08-04 01:05:33",,,,,601
+986,82.20-2,"Atividades de teleatendimento","2021-08-04 01:05:33",,,,,602
+988,82.30-0,"Atividades de organização de eventos, exceto culturais e esportivos","2021-08-04 01:05:33",,,,,603
+990,82.91-1,"Atividades de cobrança e informações cadastrais","2021-08-04 01:05:33",,,,,604
+991,82.92-0,"Envasamento e empacotamento sob contrato","2021-08-04 01:05:33",,,,,605
+992,82.99-7,"Atividades de serviços prestados principalmente às empresas não especificadas anteriormente","2021-08-04 01:05:33",,,,,606
+999,84.11-6,"Administração pública em geral","2021-08-04 01:05:33",,,,,607
+1000,84.12-4,"Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais","2021-08-04 01:05:33",,,,,608
+1001,84.13-2,"Regulação das atividades econômicas","2021-08-04 01:05:33",,,,,609
+1003,84.21-3,"Relações exteriores","2021-08-04 01:05:33",,,,,610
+1004,84.22-1,Defesa,"2021-08-04 01:05:33",,,,,611
+1005,84.23-0,Justiça,"2021-08-04 01:05:33",,,,,612
+1006,84.24-8,"Segurança e ordem pública","2021-08-04 01:05:33",,,,,613
+1007,84.25-6,"Defesa Civil","2021-08-04 01:05:33",,,,,614
+1009,84.30-2,"Seguridade social obrigatória","2021-08-04 01:05:33",,,,,615
+1013,85.11-2,"Educação infantil - creche","2021-08-04 01:05:33",,,,,616
+1014,85.12-1,"Educação infantil - pré-escola","2021-08-04 01:05:33",,,,,617
+1015,85.13-9,"Ensino fundamental","2021-08-04 01:05:33",,,,,618
+1017,85.20-1,"Ensino médio","2021-08-04 01:05:33",,,,,619
+1019,85.31-7,"Educação superior - graduação","2021-08-04 01:05:33",,,,,620
+1020,85.32-5,"Educação superior - graduação e pós-graduação","2021-08-04 01:05:33",,,,,621
+1021,85.33-3,"Educação superior - pós-graduação e extensão","2021-08-04 01:05:33",,,,,622
+1023,85.41-4,"Educação profissional de nível técnico","2021-08-04 01:05:33",,,,,623
+1024,85.42-2,"Educação profissional de nível tecnológico","2021-08-04 01:05:33",,,,,624
+1026,85.50-3,"Atividades de apoio à educação","2021-08-04 01:05:33",,,,,625
+1028,85.91-1,"Ensino de esportes","2021-08-04 01:05:33",,,,,626
+1029,85.92-9,"Ensino de arte e cultura","2021-08-04 01:05:33",,,,,627
+1030,85.93-7,"Ensino de idiomas","2021-08-04 01:05:33",,,,,628
+1031,85.99-6,"Atividades de ensino não especificadas anteriormente","2021-08-04 01:05:33",,,,,629
+1035,86.10-1,"Atividades de atendimento hospitalar","2021-08-04 01:05:33",,,,,630
+1037,86.21-6,"Serviços móveis de atendimento a urgências","2021-08-04 01:05:33",,,,,631
+1038,86.22-4,"Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências","2021-08-04 01:05:33",,,,,632
+1040,86.30-5,"Atividades de atenção ambulatorial executadas por médicos e odontólogos","2021-08-04 01:05:33",,,,,633
+1045,86.40-2,"Atividades de serviços de complementação diagnóstica e terapêutica","2021-08-04 01:05:33",,,,,634
+1047,86.50-0,"Atividades de profissionais da área de saúde, exceto médicos e odontólogos","2021-08-04 01:05:33",,,,,635
+1049,86.60-7,"Atividades de apoio à gestão de saúde","2021-08-04 01:05:33",,,,,636
+1051,86.90-9,"Atividades de atenção à saúde humana não especificadas anteriormente","2021-08-04 01:05:33",,,,,637
+1054,87.11-5,"Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes prestadas em residências coletivas e particulares","2021-08-04 01:05:33",,,,,638
+1055,87.12-3,"Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio","2021-08-04 01:05:33",,,,,639
+1057,87.20-4,"Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química","2021-08-04 01:05:33",,,,,640
+1059,87.30-1,"Atividades de assistência social prestadas em residências coletivas e particulares","2021-08-04 01:05:33",,,,,641
+1062,88.00-6,"Serviços de assistência social sem alojamento","2021-08-04 01:05:33",,,,,642
+1066,90.01-9,"Artes cênicas, espetáculos e atividades complementares","2021-08-04 01:05:33",,,,,643
+1067,90.02-7,"Criação artística","2021-08-04 01:05:33",,,,,644
+1068,90.03-5,"Gestão de espaços para artes cênicas, espetáculos e outras atividades artísticas","2021-08-04 01:05:33",,,,,645
+1071,91.01-5,"Atividades de bibliotecas e arquivos","2021-08-04 01:05:33",,,,,646
+1072,91.02-3,"Atividades de museus e de exploração, restauração artística e conservação de lugares e prédios históricos e atrações similares","2021-08-04 01:05:33",,,,,647
+1073,91.03-1,"Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental","2021-08-04 01:05:33",,,,,648
+1076,92.00-3,"Atividades de exploração de jogos de azar e apostas","2021-08-04 01:05:33",,,,,649
+1079,93.11-5,"Gestão de instalações de esportes","2021-08-04 01:05:33",,,,,650
+1080,93.12-3,"Clubes sociais, esportivos e similares","2021-08-04 01:05:33",,,,,651
+1084,93.13-1,"Atividades de condicionamento físico","2021-08-04 01:05:33",,,,,652
+1085,93.19-1,"Atividades esportivas não especificadas anteriormente","2021-08-04 01:05:33",,,,,653
+1087,93.21-2,"Parques de diversão e parques temáticos","2021-08-04 01:05:33",,,,,654
+1088,93.29-8,"Atividades de recreação e lazer não especificadas anteriormente","2021-08-04 01:05:33",,,,,655
+1092,94.11-1,"Atividades de organizações associativas patronais e empresariais","2021-08-04 01:05:33",,,,,656
+1093,94.12-0,"Atividades de organizações associativas profissionais","2021-08-04 01:05:33",,,,,657
+1095,94.20-1,"Atividades de organizações sindicais","2021-08-04 01:05:33",,,,,658
+1097,94.30-8,"Atividades de associações de defesa de direitos sociais","2021-08-04 01:05:33",,,,,659
+1099,94.91-0,"Atividades de organizações religiosas","2021-08-04 01:05:33",,,,,660
+1100,94.92-8,"Atividades de organizações políticas","2021-08-04 01:05:33",,,,,661
+1101,94.93-6,"Atividades de organizações associativas ligadas à cultura e à arte","2021-08-04 01:05:33",,,,,662
+1102,94.99-5,"Atividades associativas não especificadas anteriormente","2021-08-04 01:05:33",,,,,663
+1105,95.11-8,"Reparação e manutenção de computadores e de equipamentos periféricos","2021-08-04 01:05:33",,,,,664
+1106,95.12-6,"Reparação e manutenção de equipamentos de comunicação","2021-08-04 01:05:33",,,,,665
+1108,95.21-5,"Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico","2021-08-04 01:05:33",,,,,666
+1109,95.29-1,"Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente","2021-08-04 01:05:33",,,,,667
+1112,96.01-7,"Lavanderias, tinturarias e toalheiros","2021-08-04 01:05:33",,,,,668
+1113,96.02-5,"Cabeleireiros e outras atividades de tratamento de beleza","2021-08-04 01:05:33",,,,,669
+1114,96.03-3,"Atividades funerárias e serviços relacionados","2021-08-04 01:05:33",,,,,670
+1115,96.09-2,"Atividades de serviços pessoais não especificadas anteriormente","2021-08-04 01:05:33",,,,,671
+1119,97.00-5,"Serviços domésticos","2021-08-04 01:05:33",,,,,672
+1123,99.00-8,"Organismos internacionais e outras instituições extraterritoriais","2021-08-04 01:05:33",,,,,673
+1124,,LALALALALALLA,"2022-10-19 18:27:47",,,,,681

@@ -5,4 +5,4 @@
 {{ config('database.connections.pgsql.username') }}
 {{ config('database.connections.pgsql.password') }}
 
-{{$rex}}
+{{$a}}
