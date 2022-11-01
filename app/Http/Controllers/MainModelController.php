@@ -18,9 +18,10 @@ class MainModelController extends Controller
 
     public function dados_conexao(Request $req) //Mudar nome function
     {
-        $dados = $req->all();
+        $table_db_source = env('DB_DATABASE_TABLE');
+        $table_db_target = env('DB_DATABASE_TABLE_TARGET');
 
-        $json_table = DB::connection(env('DB_CONNECTION'))->table(env('DB_DATABASE_TABLE'))->get();
+        $json_table = DB::connection(env('DB_CONNECTION'))->table($table_db_source)->get();
         $json_table = json_decode($json_table, true);
 
         $csv_filename = 'dados.csv';
@@ -33,8 +34,8 @@ class MainModelController extends Controller
 
         fclose($file);
 
-        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY app.t_cius_cnae RESTART IDENTITY");
-        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY app.t_cius_cnae FROM '".public_path('dados.csv')."' DELIMITER ',' CSV");
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY $table_db_target RESTART IDENTITY");
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '".public_path('dados.csv')."' DELIMITER ',' CSV");
 
         return "Tabela importada com sucesso!";
     }
