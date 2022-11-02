@@ -10,6 +10,7 @@ class MainController extends Controller
     {
         $table_db_source = env('DB_DATABASE_TABLE');
         $table_db_target = env('DB_DATABASE_TABLE_TARGET');
+        $path_csv = env('PATH_CSV');
 
         // Gera JSON da tabela
         $json_table = DB::connection(env('DB_CONNECTION'))->table($table_db_source)->get();
@@ -28,7 +29,8 @@ class MainController extends Controller
 
         // Limpa tabela, reseta coluna identity e importa os novos dados pelo csv gerado via query do postgres
         DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY $table_db_target RESTART IDENTITY");
-        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '".public_path('dados.csv')."' DELIMITER ',' CSV");
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '$path_csv' DELIMITER ',' CSV");
+        //DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM 'C:/Users/felip/Desktop/env-laravel-docker/projs/apps/app-transfer-data-db/public/dados.csv' DELIMITER ',' CSV");
 
         return "Tabela importada com sucesso!";
     }

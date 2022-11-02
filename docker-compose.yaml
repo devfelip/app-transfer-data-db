@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  laravel-app:
+    build: .
+    container_name: app_laravel
+    ports:
+      - "8091:80"
+    volumes:
+      - ./:/usr/share/nginx/html
+      - ./nginx_conf:/etc/nginx/conf.d
+    networks:
+      - app-network
+    restart: unless-stopped
+    command: sh -c "php artisan config:clear && php artisan key:generate && /start.sh"
+
+networks:
+  app-network:
+    driver: bridge
