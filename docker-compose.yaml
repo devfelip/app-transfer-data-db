@@ -12,7 +12,6 @@ services:
     networks:
       - app-network
     restart: unless-stopped
-    command: sh -c "php artisan config:clear && php artisan key:generate && /start.sh"
 
 networks:
   app-network:
