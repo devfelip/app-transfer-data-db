@@ -3,14 +3,11 @@
 
 ### Databases Tested
 * MySQL;
-* Postgres;
-* Oracle.
+* Postgres.
 
 ### Requirements
 * Docker;
 * Docker Compose.
-
-
 
 ### Get Started
 * Clone repository;
