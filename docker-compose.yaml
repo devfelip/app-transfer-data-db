@@ -3,7 +3,7 @@ version: '3'
 services:
   laravel-app:
     build: .
-    container_name: app_laravel
+    container_name: app.transfer-data-db
     ports:
       - "8091:80"
     volumes:
