@@ -8,7 +8,7 @@ services:
       - "8091:80"
     volumes:
       - ./:/usr/share/nginx/html
-      - ./nginx_conf:/etc/nginx/conf.d
+      - ./docker/nginx_conf:/etc/nginx/conf.d
     networks:
       - app-network
     restart: unless-stopped
