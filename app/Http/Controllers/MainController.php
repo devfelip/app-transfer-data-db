@@ -28,9 +28,11 @@ class MainController extends Controller
         fclose($file);
 
         // Limpa tabela, reseta coluna identity e importa os novos dados pelo csv gerado via query do postgres
-        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY $table_db_target RESTART IDENTITY");
-        DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '$path_csv' DELIMITER ',' CSV");
-
-        return "Tabela importada com sucesso!";
+        DB::connection(env('DB_CONNECTION_TARGET').'_target')->transaction(function () use($table_db_target, $path_csv) {            
+            DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("TRUNCATE ONLY $table_db_target RESTART IDENTITY");
+            DB::connection(env('DB_CONNECTION_TARGET').'_target')->statement("COPY $table_db_target FROM '$path_csv' DELIMITER ',' CSV");
+        });
+        
+        return "Tabela $table_db_target importada com sucesso!";
     }
 }
